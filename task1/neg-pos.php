@@ -49,7 +49,7 @@ if ($_POST) {
                         <input type="number" name="num" id="num" class="form-control" placeholder="Enter Number">
                     </div>
                     <div class="form-group">
-                        <button name="even" class="btn btn-primary rounded">Negative Or Positive?!</button>
+                        <button name="neg" class="btn btn-primary rounded">Negative Or Positive?!</button>
                     </div>
                 </form>
                 <?php if (isset($message)) {
