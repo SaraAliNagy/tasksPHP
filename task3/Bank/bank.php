@@ -77,7 +77,7 @@ if ($_POST) {
                         <input type="loanyears" name="loanyears" id="" class="form-control" placeholder="" aria-describedby="helpId">
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-danger rounded"> Calculate </button>
+                        <button class="btn btn-danger rounded form-control"> Calculate </button>
                     </div>
                 </form>
                 <?php if (isset($result)) {
